@@ -608,10 +608,10 @@ export default function ArtBulletinGenerator() {
               <div className="text-center">
                 <h1 className="text-3xl font-bold text-gray-900 mb-2">
                   <Palette className="inline-block mr-2 h-8 w-8" />
-                  Sanat Bülteni Oluşturucu
+                  Mail Şablonu Oluşturucu
                 </h1>
                 <p className="text-gray-600">
-                  Blok blok ekleyerek tamamen özelleştirilebilir sanat bültenleri oluşturun
+                  Blok blok ekleyerek tamamen özelleştirilebilir mail şablonları oluşturun
                 </p>
               </div>
             </CardContent>
@@ -697,7 +697,7 @@ export default function ArtBulletinGenerator() {
           {/* Left Column - Bülten İçeriği */}
           <div className="space-y-4">
             <div className="flex items-center justify-between">
-              <h3 className="text-xl font-semibold">Bülten İçeriği</h3>
+              <h3 className="text-xl font-semibold">Mail İçeriği</h3>
               <span className="px-3 py-1 bg-purple-100 text-purple-800 text-sm rounded-full">
                 {emailData.blocks.length} Blok
               </span>
