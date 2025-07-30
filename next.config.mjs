@@ -11,9 +11,9 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  // GitHub Pages için base path (repository adınızla değiştirin)
-  // basePath: '/repository-name',
-  // assetPrefix: '/repository-name/',
+  // GitHub Pages için base path
+  basePath: '/mail-creator',
+  assetPrefix: '/mail-creator/',
 }
 
 export default nextConfig
