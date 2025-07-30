@@ -1039,7 +1039,7 @@ export default function ArtBulletinGenerator() {
           </div>
 
           {/* Right Column - Canlı Önizleme */}
-          <div className="space-y-6">
+          <div className="space-y-2">
             <div className="sticky top-[220px]">
               <Card>
                 <CardHeader>
