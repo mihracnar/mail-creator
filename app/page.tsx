@@ -32,6 +32,7 @@ import {
   MousePointer,
   Hash,
   FileText,
+  Mail,
 } from "lucide-react"
 
 interface ContentBlock {
@@ -59,7 +60,7 @@ export default function ArtBulletinGenerator() {
       {
         id: "1",
         type: "header",
-        content: "SANAT BÜLTENİ",
+        content: "MAİL BÜLTENİ",
         textAlign: "center",
         backgroundColor: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
       },
@@ -603,19 +604,19 @@ export default function ArtBulletinGenerator() {
       <div className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 py-4">
           {/* Title Card */}
-          <Card className="mb-4">
-            <CardContent className="py-4">
-              <div className="text-center">
-                <h1 className="text-3xl font-bold text-gray-900 mb-2">
-                  <Mail className="inline-block mr-2 h-8 w-8" />
-                  Mail Şablonu Oluşturucu
-                </h1>
-                <p className="text-gray-600">
-                  Blok blok ekleyerek tamamen özelleştirilebilir mail şablonları oluşturun
-                </p>
-              </div>
-            </CardContent>
-          </Card>
+        <Card className="mb-4">
+          <CardContent className="py-4">
+            <div className="text-center">
+              <h1 className="text-3xl font-bold text-gray-900 mb-2">
+                <Mail className="inline-block mr-2 h-8 w-8" />
+                Mail Şablonu Oluşturucu
+              </h1>
+              <p className="text-gray-600">
+                Blok blok ekleyerek tamamen özelleştirilebilir mail şablonları oluşturun
+              </p>
+            </div>
+          </CardContent>
+        </Card>
 
           {/* Add Block Buttons - Compact */}
           <Card>
