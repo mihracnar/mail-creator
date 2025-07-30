@@ -609,10 +609,10 @@ export default function ArtBulletinGenerator() {
             <div className="text-center">
               <h1 className="text-3xl font-bold text-gray-900 mb-2">
                 <Mail className="inline-block mr-2 h-8 w-8" />
-                Mail Şablonu Oluşturucu
+                Mail Bülteni Oluşturucu
               </h1>
               <p className="text-gray-600">
-                Blok blok ekleyerek tamamen özelleştirilebilir mail şablonları oluşturun
+                Blok blok ekleyerek tamamen özelleştirilebilir mail bültenleri oluşturun
               </p>
             </div>
           </CardContent>
@@ -1076,7 +1076,7 @@ export default function ArtBulletinGenerator() {
               <div className="flex justify-center space-x-4">
                 <Button onClick={copyFromIframe} size="lg" className="px-8">
                   <Copy className="mr-2 h-5 w-5" />
-                  Sanat Bültenini Kopyala
+                  Mail Bültenini Kopyala
                 </Button>
 
                 <Button onClick={openInNewTab} variant="outline" size="lg" className="px-8 bg-transparent">
