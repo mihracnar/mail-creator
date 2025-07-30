@@ -607,7 +607,7 @@ export default function ArtBulletinGenerator() {
             <CardContent className="py-4">
               <div className="text-center">
                 <h1 className="text-3xl font-bold text-gray-900 mb-2">
-                  <Palette className="inline-block mr-2 h-8 w-8" />
+                  <Mail className="inline-block mr-2 h-8 w-8" />
                   Mail Şablonu Oluşturucu
                 </h1>
                 <p className="text-gray-600">
